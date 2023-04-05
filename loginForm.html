@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://lh3.googleusercontent.com/a/AGNmyxakPvtF7jVH7yKmvLz8A_3kFxsYP13pE8b0Mw8C1w=s288"
+    />
+    <link rel="stylesheet" href="/src/styles/formStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="details">
+        <img
+          class="mountain--Icon"
+          src="/src/assets/mountains.png"
+          alt="mountain"
+        />
+        <h3>LOG IN</h3>
+      </div>
+
+      <form action="">
+        <div class="userName fill">
+          <img
+            class="user--password"
+            src="/src/assets/user (1).png"
+            alt="User Name"
+          />
+          <input
+            class="inp--space--around first"
+            type="email"
+            placeholder="Username"
+          />
+        </div>
+
+        <div class="password fill">
+          <img
+            class="user--password"
+            src="/src/assets/lock (1).png"
+            alt="password"
+          />
+          <input
+            class="inp--space--around second"
+            type="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <div class="remember--me">
+          <input type="checkbox" id="remember" name="remember" />
+          <label for="remember">Remember me</label>
+        </div>
+        <br /><br />
+        <div class="subButton">
+          <button id="submitButton" type="submit">Login</button>
+        </div>
+      </form>
+      <div class="recoveryLink">
+        <a href="/ID_card.html">Forgot password?</a>
+      </div>
+      <br><br>
+    </div>
+    <script src="/src/scripts/app.js"></script>
+  </body>
+</html>

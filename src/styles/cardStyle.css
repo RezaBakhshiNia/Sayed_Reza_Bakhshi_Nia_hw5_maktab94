@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, #c972ff),
+    color-stop(40%, #d258fb),
+    color-stop(100%, #af23fb)
+  );
+  font-family: poppins, sans-serif;
+  padding-bottom: 150px;
+}
+
+.profile--picture {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+  margin-top: 60px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 7%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #aa076b, #61045f);
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h1,
+h2,
+p {
+  color: #dddbdb;
+}
+
+.social {
+  width: 35px;
+  border-radius: 50%;
+  border: 15px solid white;
+}
+
+.social--acounts:first-child {
+  background: aliceblue;
+}
