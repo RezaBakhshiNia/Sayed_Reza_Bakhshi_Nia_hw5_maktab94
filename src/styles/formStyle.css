@@ -1,0 +1,137 @@
+body {
+  background-image: url(/src/assets/NewYork.jpg);
+}
+
+.container {
+  width: 30%;
+  height: 60%;
+  margin: auto;
+  margin-top: 5%;
+  background: linear-gradient(to bottom, #5393fb, #b324d3);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  align-items: center;
+}
+
+.mountain--Icon {
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 3em;
+  width: 70px;
+}
+
+h3 {
+  font-size: large;
+  color: white;
+}
+
+form {
+  width: 85%;
+  margin: auto;
+}
+
+.fill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(144, 116, 140);
+  margin-bottom: 1em;
+}
+
+.user--password {
+  width: 23px;
+}
+
+.inp--space--around {
+  width: 88%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 15px 0px;
+  font-size: large;
+}
+
+input::placeholder {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* padding-left: px; */
+}
+
+input:active {
+  border: none;
+}
+
+.remember--me {
+  display: flex;
+}
+
+label {
+  margin-left: 7px;
+  font-family: poppins, sans-serif;
+  font-size: small;
+  color: white;
+}
+
+.subButton {
+  display: flex;
+  justify-content: space-around;
+}
+#submitButton {
+  padding: 10px 25px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5em;
+  font-family: "Poppins", sans-serif;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: rgb(123, 77, 209);
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+  rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+  rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+  rgba(44, 187, 99, 0.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+
+.recoveryLink {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+}
+
+a:hover {
+  color: whitesmoke;
+}
