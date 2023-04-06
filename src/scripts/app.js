@@ -18,7 +18,9 @@ const pedometer = {
     this.steps++;
   },
   decrease() {
-    this.steps--;
+    if (this.steps > 0) {
+      this.steps--;
+    }
   },
   reset() {
     this.steps = 0;
